@@ -59,14 +59,18 @@ body{
 .purple{
     color: var(--purple);
 }
-.grid{
+.grid1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     row-gap: 24px;
     
 }  
+
 .padding-12{
     padding-inline: 12px;
     padding-bottom: 17px;
+}
+.padding20{
+    padding: 20px;
 }

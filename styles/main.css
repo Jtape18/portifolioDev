@@ -3,9 +3,18 @@ main{
 }
 #projects{
     padding-bottom: 144px ;
+    padding-inline: 163px;
+
+}
+ #services{
 }
 
+main section:last-child{
+    background-color: var(--gray-100);
+    background-size: cover;
 
+
+}
 #header-secondary{
     text-align: center;
 }
@@ -25,10 +34,21 @@ main{
 #grade div{
     max-width: 330px;
     background-color: var(--gray-300);
-    border-radius: 8px;
-    
-    
+    border-radius: 8px;    
+    /* Inicialmente, a borda é transparente */
+    border: 2px solid transparent; 
+    /* Transição suave para borda e transformação */
+    transition: border 0.3s ease, transform 0.3s ease; 
+    /* Mostra o cursor de ponteiro ao passar o mouse */
+    cursor: pointer; 
+    overflow: hidden;
 }
+#grade div:hover {
+    border: 1px solid #878EA1; /* Mostra a borda azul quando o mouse está sobre o item */
+    transform: scale(1.05); /* Aumenta levemente o tamanho do item no hover */
+}
+
+
 #grade img{
     max-width: 306px;
     display: flex;
@@ -49,5 +69,58 @@ main{
     color: var(--gray-500);
     padding-top: 8px;
 }
+
+
+#header-third{
+    text-align: center;
+    padding-top: 88px;
+}
+
+
+#header-third p{
+    color: var(--red);
+    font: var(--subtitle);
+}
+#header-third h2{
+    padding-top: 8px;
+    color: var(--gray-600);
+    font: var(--title-md);
+
+}
+#grade2{
+    padding-top: 56px;
+    padding-inline: 120px;
+    padding-bottom:120px ;
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+    gap: 24px;
+}
+#grade2 div:first-child{
+    max-width: 280px;
+    
+
+}
+.borda{
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+}
+#grade2 img{
+    width: 48px;
+}
+
+#grade2 h3{
+    color: var(--gray-600);
+    font: var(--title-sm);
+    padding-top: 20px;  
+}
+#grade2 p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    padding-top: 8px;
+}
+
+
 
 
