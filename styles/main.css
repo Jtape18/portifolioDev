@@ -1,0 +1,17 @@
+main{
+    padding-top: 72px;
+}
+
+#header-secondary{
+    text-align: center;
+}
+#header-secondary p{
+
+    color: var(--red);
+    font: var(--subtitle);
+}
+#header-secondary h2{
+    padding-top: 8px;
+    color: var(--gray-600);
+    font: var(--title-md);
+}

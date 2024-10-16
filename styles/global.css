@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--gray-200);
+}
 :root{
     --red:#E3646E;
     --purple:#BB72E9;
@@ -22,8 +25,8 @@
     --title-md:bold 24px/1.2 var(--font-asap); 
     --title-sm:bold 16px/1.2 var(--font-asap);
 
-    --font-inconsolata:"Inconsolata", monospace;
-    --subtitle:500 24/1.2 var(--font-inconsolata);
+    --font-incon: "Inconsolata", sans-serif;
+    --subtitle: 200 20/1.2 var(--font-incon);
 
     --font-maven:"Maven Pro", sans-serif;
     --text-md:100 16px/1.4 var(--font-maven);
@@ -37,6 +40,7 @@
 
 .subtitle{
     font: var(--subtitle);
+    font-family: var(--font-incon);
 }
 .red{
     color: var(--red);
@@ -55,3 +59,7 @@
 .purple{
     color: var(--purple);
 }
+.grid{
+    display: grid;
+    
+}  

@@ -26,11 +26,11 @@ header{
 
 }
 #carret{
-
+    display: flex;
+    justify-content: center;
     width: 23px;
-    height: 23px;
-    margin-top:px;
-    margin: 94px auto;
+    padding-top: 94px;
+    margin: auto;
     padding-bottom: 60.5px;
 }
 #titles{
