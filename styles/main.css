@@ -1,6 +1,10 @@
 main{
     padding-top: 72px;
 }
+#projects{
+    padding-bottom: 144px ;
+}
+
 
 #header-secondary{
     text-align: center;
@@ -15,3 +19,35 @@ main{
     color: var(--gray-600);
     font: var(--title-md);
 }
+#grade{
+    padding-top: 56px;
+}
+#grade div{
+    max-width: 330px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    
+    
+}
+#grade img{
+    max-width: 306px;
+    display: flex;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+    overflow: hidden; 
+    
+    
+}
+#grade h3{
+    color: var(--gray-600);
+    font: var(--title-sm);
+    padding-top: 20px;
+}
+#grade p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    padding-top: 8px;
+}
+
+
