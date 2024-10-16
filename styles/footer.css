@@ -1,0 +1,24 @@
+#header-fourth{
+    padding-top: 128px;
+    text-align: center;
+}
+#header-fourth p:first-child{
+    color: var(--purple);
+    font: var(--subtitle);
+
+    
+
+}
+#header-fourth h2{
+    color: var(--gray-600);
+    font: var(--title-md);
+    padding-block: 8px;
+}
+#header-fourth p:last-child{
+    font: var(--subtitle);
+    color: var(--gray-500);
+}
+    
+
+    
+
