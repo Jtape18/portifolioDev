@@ -18,7 +18,54 @@
     font: var(--subtitle);
     color: var(--gray-500);
 }
+ #contato{
+    background-image: url(../assets/img/Background_Contacts.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    }
+#links{
+    margin-top: 40px;
+    padding-bottom: 200px;
     
 
-    
+}   
+#links > div{
+    margin-top: 16px;
 
+}
+#links > div img {
+    padding-inline: 12px;
+}
+#links > div > div  {
+    padding-inline: 20px ;
+
+}
+
+
+
+#links div{
+    max-width: 400px;
+    background-color: var(--gray-300);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+
+    
+}
+
+#links p{
+    font: 16px/140% var(--font-maven);
+    color: var(--gray-500);
+}
+
+#links img{
+    
+}
+
+
+.padding32{
+    padding-block: 23px;
+    margin: 0 auto;
+
+}
