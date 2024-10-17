@@ -67,5 +67,16 @@
 .padding32{
     padding-block: 23px;
     margin: 0 auto;
+    border: 2px solid transparent; /* Sem borda inicialmente */
+    transition: border 0.3s ease; /* Transição suave */
+
+}
+.padding32:hover{
+    padding-block: 23px;
+    margin: 0 auto;
+    border: 2px solid transparent; /* Sem borda inicialmente */
+    transition: border 0.3s ease; /* Transição suave */
+    border: 2px solid var(--blue); /* Borda preta ao passar o mouse */
+}
 
 }
